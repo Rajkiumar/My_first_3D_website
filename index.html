@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first 3D website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="content-fit">
+            <div class="logo">Raj</div>
+            <nav>
+                <ul>
+                    <li>Contacts</li>
+                    <li>Category</li>
+                    <li>Login</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="section" id="banner">
+        <div class="content-fit">
+            <div class="title" data-before="WEBSITEDESIGN">3D ANIMATION</div>
+        </div>
+        <img src="img/flower.png" class="decorate" alt="" style="width: 50vw; bottom: 0; right: 0;">
+        <img src="img/leaf.png" class="decorate" alt="" style="width: 30vw; bottom: 0; left: 0;">
+    </div>
+    <div class="section" id="intro">
+        <div class="content-fit">
+            <div class="number">01</div>
+            <div class="des">
+                <div class="title">3d animation design for website</div>
+                <p>This is my first attempt at creating a 3D animation for web use.
+                    I designed a simple 3D object using Skechfab.
+                    The animation was integrated into a webpage with Three.js.
+                    It rotates and responds to user interaction smoothly.
+                    The goal was to test basic 3D workflows for web design.
+                    I focused on performance and clean visual presentation.
+                    This helped me understand 3D modeling and web rendering basics.
+                    Tools used: Blender, Three.js, HTML/CSS.
+                    Next, I plan to add lighting, shadows, and interactive features.</p>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="description">
+        <div class="content-fit">
+            <div class="number">02</div>
+            <div class="des">
+                <div class="title">About Me</div>
+                <p>I am S Rajkumar and i am a dedicated and curious learner currently pursuing an undergraduate
+                    program in Computer Science (Software Product Engineering) through Kalvium at RV University, Bangalore.
+                    Passionate about full-stack development and UI/UX engineering, he has built a solid foundation in modern
+                    web technologies,especially the MERN stack (MongoDB, Express.js, React.js, Node.js) and TailwindCSS for 
+                    responsive design.
+                </p>
+            </div>
+        </div>
+        <img src="img/leaf1.png" class="decorate" alt="" style="width: 70vw; bottom: 0; right: 0; z-index: 101;">
+    </div>
+    <div class="section" id="contact">
+        <div class="content-fit">
+            <div class="number">03</div>
+            <div class="des">
+                <div class="title">CONTACT</div>
+                <table>
+                    <tr>
+                        <td>Email</td>
+                        <td>rajkumar.s@kalvium.community</td>
+                    </tr>
+                    <tr>
+                        <td>Phone</td>
+                        <td>+91 xxxxx xxxxx</td>
+                    </tr>
+                    <tr>
+                        <td>Website</td>
+                        <td>myfirst3dwebsite.com</td>
+                    </tr>
+                    <tr>
+                        <td>Github</td>
+                        <td>https://github.com/Rajkiumar</td>
+                    </tr>
+                </table>
+                <div class="sign">Rajkumar</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+<div id="container3D"></div>
+<script type="module" src="app.js"></script>
+</html>
